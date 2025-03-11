@@ -1,18 +1,24 @@
+
 body{
     background-image: url(bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Times New Roman", Times, serif
 }
 img {
   height: 70px;
   width: 70px;
-
 }
+a{
+    color: black;
+}
+
+
 .navbar-nav .nav-item {
   margin-right: 20px; 
   margin-left: 50px; 
+  text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
 }
-
 .navbar-nav .nav-link {
   padding-left: 20px;
   padding-right: 20px;
@@ -35,9 +41,13 @@ img {
     background-color: #f8f9fa;
 }
 .footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f8f9fa;
+ text-align: center;
+ padding: 10px;
+ background-color: #f8f9fa;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
  .center-content {
@@ -45,7 +55,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-opacity: 40;
+background-image: url(bg2.webp);
+background-size: cover;
+background-repeat: no-repeat;
 }
  h2 {
      display: inline-block;
@@ -56,4 +68,5 @@ opacity: 40;
      border-radius: 5px;
      margin: 10px 0;
      width: auto;
+ }
  }
