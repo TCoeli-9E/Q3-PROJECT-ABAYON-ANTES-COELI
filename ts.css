@@ -45,6 +45,7 @@ nav{
 .navbar-nav .nav-item {
   margin-right: 20px; 
   margin-left: 50px; 
+  text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
 }
 .navbar-nav .nav-link {
   padding-left: 20px;
