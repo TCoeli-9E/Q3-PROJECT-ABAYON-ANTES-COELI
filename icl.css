@@ -1,0 +1,59 @@
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+  height: 70px;
+  width: 70px;
+
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; 
+  margin-left: 50px; 
+}
+
+.navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+@media{
+ max-width: 768px
+}
+.logo {
+    height: 50px;
+    width: 50px;
+  }
+.comment-section, .help-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+ .center-content {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+opacity: 40;
+}
+ h2 {
+     display: inline-block;
+     padding: 20px;
+     background-color: white;
+     color: white;
+     text-align: center;
+     border-radius: 5px;
+     margin: 10px 0;
+     width: auto;
+ }
