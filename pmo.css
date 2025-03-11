@@ -41,10 +41,6 @@ body {
   padding-right: 20px;
 }
 
-.logo {
-  height: 70px;
-  width: 70px;
-}
 @media (max-width: 768px) {
   .logo {
     height: 50px;
@@ -53,3 +49,4 @@ body {
  img {
   height: 70px;
   width: 70px;
+ }
