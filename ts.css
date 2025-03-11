@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEVt4bbUfLGgibGa3pLV0KxObo6WrpU8Zk3%2BHlys4BMxzTCDL9z1xKYcM33SQTCr5HtFf2FDKJVM3Pe6IfJ8kTRvc7Q7gBvGAs4AO5UvRBIBMlC5IjC7gelfE3Y0MZZcrp7TvFA1o9Pp37mpT%2BfT6GJYlfPt0fwvGG%2F6ITb16x7%2BhM8voBL08DvECeLGOmWnOXNyOrOK77Ho3FagJaeA%2FS1crzVKSiN4eFjxYlx5apXuSHbZ6wJjufPNJsWXcXftipobDNmCtVKA663EoAKjdPEJTLQR8EhrlZWu%2Blc4BdCLFGs9LEYYhnjXR74YHIoHOrksjFiHYQE4nx2NVY4OEECPuwebvOhfO7673d4nKT9E0sahVjydYUaUBtNLNys8Hn%2FjB2QOk5ZWuctHFj8bgFCRVvoyY%2BtsSxujdY3uHenOGJ7V3CdEXzHNVX733D30f2t8yFgwZ3xzwGVqlPaoYuOi1AUpgCrYUkFdnQVRDWFKvEjYo3SaN8kKKcZtb14PTwCHbKC%2BSyg1vKDovJAkA38y%2BSbq4clATcaQRhz5qyHIC7I9MgCM9Sqp8ilq&allow_caching=true&sz=w512);
+  background-size: cover;
+  background-position: center;
+
+}
+img {
+  height: 70px;
+  width: 70px;
+
+}
+h2 {
+  text-align: center;
+  background-color: #ebd309;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+p {
+  text-align: center;
+  background-color: #ebd309;
+  padding: 2px;
+  border-radius: 5px;
+}
+nav{
+  background:rgba(33, 33, 33, 4);
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; 
+  margin-left: 50px; 
+}
+.navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
